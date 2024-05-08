@@ -1,0 +1,29 @@
+@font-face {
+    font-family: light;
+    src: url(./Chillax-Light.otf);
+}
+
+@font-face {
+    font-family: medium;
+    src: url(./Chillax-Medium.otf);
+}
+
+@font-face {
+    font-family: semibold;
+    src: url(./Chillax-Semibold.otf);
+}
+
+@font-face {
+    font-family: regular;
+    src: url(./Chillax-Regular.otf);
+}
+
+@font-face {
+    font-family: bold;
+    src: url(./Chillax-Bold.otf);
+}
+
+@font-face {
+    font-family: extralight;
+    src: url(./Chillax-Extralight.otf);
+}
