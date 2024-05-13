@@ -114,3 +114,83 @@ tabBtns.forEach((tabBtn,i) => {
         tab_Nav(i);
     });
 });
+
+//slider
+// const btnLeftd = document.querySelector(".left-btnd");
+// const btnRightd = document.querySelector(".right-btnd");
+// const tabMenud = document.querySelector(".tab-menud");
+
+// const IconVisibilityd = () => {
+//     let scrollLeftValued = Math.ceil(tabMenud.scrollLeft);
+//     let scrollableWidthd = tabMenud.scrollWidth - tabMenud.clientWidth;
+
+//     btnLeftd.style.display = scrollLeftValued > 0 ? "block" : "none";
+//     btnRightd.style.display = scrollableWidthd > scrollLeftValued ? "block" : "none";
+// }
+
+// btnRightd.addEventListener("click", () => {
+//     tabMenud.scrollLeft += 100;
+//    // IconVisibilityd();
+//    setTimeout(()=>IconVisibilityd(), 50);
+// });
+
+// btnLeftd.addEventListener("click", () => {
+//     tabMenud.scrollLeft -= 100;
+//   //  IconVisibilityd();
+//   setTimeout(()=>IconVisibilityd(), 50);
+// });
+
+// window.onload = function() {
+//     btnRightd.style.display = tabMenud.scrollWidth > tabMenud.clientWidth ||  tabMenud.scrollWidth >= window.innerWidth ? "block" : "none";
+//     btnLeftd.style.display = tabMenud.scrollWidth >= window.innerWidth ? "" : "none";
+// }
+
+// window.onresize = function() {
+//     btnRightd.style.display = tabMenud.scrollWidth > tabMenud.clientWidth ||  tabMenud.scrollWidth >= window.innerWidth ? "block" : "none";
+//     // btnLeftd.style.display = tabmenud.scrollWidth >= window.innerWidth ? "" : "none";
+
+//     let scrollLeftValued = Math.round(tabMenud.scrollLeft);
+
+//     btnLeftd.style.display = scrollLeftValued > 0 ? "block" : "none";
+// }
+
+// let activeDragd = false;
+
+// tabMenud.addEventListener("mousemove", (drag) => {
+//     if(!activeDragd) return;
+//     tabMenud.scrollLeft -= drag.movementX;
+//     IconVisibilityd();
+//     tabMenud.classList.add("dragging");
+// });
+
+// document.addEventListener("mouseup", () => {
+//     activeDragd = false;
+//     tabMenud.classList.remove("dragging");
+// })
+
+// tabMenud.addEventListener("mousedown", () => {
+//     activeDragd = true;
+// });
+
+// // clickaction
+// const tabsd = document.querySelectorAll(".tabd");
+// const tabBtnsd = document.querySelectorAll(".tab-btnd");
+
+// const tab_Navd = function(tabBtnClickd){
+//     tabBtnsd.forEach((tabBtnd) => {
+//         tabBtnd.classList.remove("active");
+//     });
+
+//     tabsd.forEach((tabd) => {
+//        tabd.classList.remove("active")
+//     });
+
+//     tabBtnsd[tabBtndClickd].classList.add("active");
+//     tabs[tabBtndClick].classList.add("active");
+// }
+
+// tabBtnsd.forEach((tabBtnd,i) => {
+//     tabBtnd.addEventListener("click",() => {
+//         tab_Navd(i);
+//     });
+// });
