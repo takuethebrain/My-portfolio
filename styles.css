@@ -288,7 +288,7 @@ header .word {
   position: absolute;
   opacity: 0;
   font-family: semibold;
-  font-size: 35px;
+  font-size: 30px;
   color: #05796C;
   margin-left: 15px;
 }
