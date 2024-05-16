@@ -723,6 +723,12 @@ picture {
   margin-top: 40px;
   margin-left: 20px;
 }
+.design .all {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .design .tab-menu {
   color: #F47059;
   list-style: none;
@@ -809,7 +815,6 @@ picture {
   justify-content: center;
   align-items: center;
   border: #F47059 1px solid;
-  height: 35vh;
   margin-bottom: 30px;
   margin-top: 30px;
 }
@@ -829,7 +834,10 @@ picture {
   margin-top: 15px;
 }
 .contact #last {
-  margin-bottom: 0px;
+  margin-bottom: 20px;
+}
+.contact #first {
+  margin-top: 20px;
 }
 .contact .right {
   display: flex;
@@ -1732,7 +1740,6 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     justify-content: center;
     align-items: center;
     border: #F47059 1px solid;
-    height: 43vh;
     margin-bottom: 30px;
     margin-top: 30px;
   }
@@ -1741,7 +1748,6 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    width: 90%;
     margin-bottom: 20px;
   }
   .contact .info p {
@@ -1752,7 +1758,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     margin-top: 15px;
   }
   .contact #last {
-    margin-bottom: 0px;
+    margin-bottom: 20px;
+  }
+  .contact #first {
+    margin-top: 20px;
   }
   .contact .right {
     display: flex;
