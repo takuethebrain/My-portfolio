@@ -366,10 +366,10 @@ picture{width: 115%; height: 10vh; background-color: #DCDED0; display: flex; jus
 
 .journey{display: none;}
 
-.design{position: relative; transition: 0.5s ease; background-color: #DCDED0; height: 105vh;
+.design{position: relative; transition: 0.5s ease; background-color: #DCDED0; 
        h2{font-family: semibold; color: #05796C; font-size: 35px; padding-top: 50px; text-align: center;}
       .tab-content{display: flex; justify-content: center; width: 100%; position: relative;}
-      .tab{position: absolute; top: 0; right: 0; left: auto; transform: translateY(25px); content-visibility: hidden; opacity: 0;}
+      .tab{ transform: translateY(25px); content-visibility: hidden; opacity: 0;}
       .tab.active{ transform: translateY(0px); content-visibility: visible; opacity: 1; transition: 1s ease;}
       .img-card img{width: 100%;}
       .img-card{position: relative; width: 100%; max-width: 100%; overflow: hidden; display: flex; justify-content: center; align-items: center;}
@@ -395,7 +395,7 @@ picture{width: 115%; height: 10vh; background-color: #DCDED0; display: flex; jus
       .tab-menu{color: #F47059; list-style: none; background-color: hsla(9, 88%, 65%, 0.418); max-width: 400px; padding: 10px; white-space: nowrap; border-radius: 50px; overflow-x: auto; user-select: none; transition: 0.3s ease; scroll-behavior: smooth;}
       .tab-menu.dragging{scroll-behavior: unset; cursor: grab;}
       .tab-menu::-webkit-scrollbar{display: none;}
-      .tab-nav-bar{margin-top: 50px; position: absolute; bottom: 0;}
+      .tab-nav-bar{margin-top: 50px; }
       .tab-navigation{position: relative; display: flex; justify-content: center; align-items: center; max-width: fit-content; margin: 0 auto; p{font-size: 35px; color: #F47059; cursor: pointer; user-select: none;} .left-btn{display: none;} }
       .tab-btn{display: inline-block; color: #F47059; font-size: 20px; font-family: regular; margin: 0px 2px; padding: 10px 20px; border-radius: 30px; background-color: #DCDED0; cursor: pointer; user-select: none;}
       .tab-btn:hover{background-color: #F47059; color: #DCDED0;}
@@ -576,10 +576,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
  .journey{display: block; width: 100%; img{width: 100%; object-fit: scale-down;} background-color: #DCDED0;}
 
- .design{position: relative; transition: 0.5s ease; background-color: #DCDED0; height: 100vh;
+ .design{position: relative; transition: 0.5s ease; background-color: #DCDED0;
   h2{font-family: semibold; color: #05796C; font-size: 35px; padding-top: 50px; text-align: center;}
  .tab-content{display: flex; justify-content: center; width: 100%; position: relative;}
- .tab{position: absolute; top: 0; right: 0; left: auto; transform: translateY(25px); content-visibility: hidden; opacity: 0;}
+ .tab{ transform: translateY(25px); content-visibility: hidden; opacity: 0;}
  .tab.active{ transform: translateY(0px); content-visibility: visible; opacity: 1; transition: 1s ease;}
  .img-card img{width: 100%;}
  .img-card{position: relative; width: 100%; max-width: 100%; overflow: hidden; display: flex; justify-content: center; align-items: center; margin-top: 50px;}
@@ -611,7 +611,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
  .tab-menu{color: #F47059; list-style: none; background-color: hsla(9, 88%, 65%, 0.418); max-width: 400px; padding: 10px; white-space: nowrap; border-radius: 50px; overflow-x: auto; user-select: none; transition: 0.3s ease; scroll-behavior: smooth;}
  .tab-menu.dragging{scroll-behavior: unset; cursor: grab;}
  .tab-menu::-webkit-scrollbar{display: none;}
- .tab-nav-bar{margin-top: 50px; position: absolute; bottom: 10; right: 35%;}
+ .tab-nav-bar{margin-top: 50px;  }
  .tab-navigation{position: relative; display: flex; justify-content: center; align-items: center; max-width: fit-content; margin: 0 auto; p{font-size: 35px; color: #F47059; cursor: pointer; user-select: none;} .left-btn{display: none;} }
  .tab-btn{display: inline-block; color: #F47059; font-size: 20px; font-family: regular; margin: 0px 2px; padding: 10px 20px; border-radius: 30px; background-color: #DCDED0; cursor: pointer; user-select: none;}
  .tab-btn:hover{background-color: #F47059; color: #DCDED0;}
